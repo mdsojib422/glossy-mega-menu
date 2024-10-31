@@ -1,0 +1,678 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Glossy Mega Menu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-23 10:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: glossy-mega-menu"
+
+#: includes/elementor/widgets/nav-menu.php:226
+msgid " Custom Link"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:184
+msgid "1024"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:149
+msgid "404 Page"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:579
+#: includes/elementor/widgets/nav-menu.php:851
+msgid "Active"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:69
+msgid "Add New"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:70
+msgid "Add New Header or Footer"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:289
+msgid "Advanced"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:102
+msgid "Align Items"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:282
+msgid "All"
+msgstr ""
+
+#. %s post label
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:242
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#. %s post label
+#. %s taxonomy label
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:247
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:256
+#, php-format
+msgid "All %s Archive"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:167
+msgid "All Archives"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:166
+msgid "All Singulars"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:74
+msgid "All Templates"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:154
+msgid "Author Archive"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1182
+#: includes/elementor/widgets/nav-menu.php:1224
+#: includes/elementor/widgets/nav-menu.php:1382
+#: includes/elementor/widgets/nav-menu.php:1423
+msgid "Background"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:110
+msgid "Baseline"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:163
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:280
+msgid "Basic"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:151
+msgid "Blog / Posts Page"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:894
+#: includes/elementor/widgets/nav-menu.php:1192
+#: includes/elementor/widgets/nav-menu.php:1234
+#: includes/elementor/widgets/nav-menu.php:1392
+#: includes/elementor/widgets/nav-menu.php:1436
+msgid "Border"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:920
+#: includes/elementor/widgets/nav-menu.php:930
+msgid "Border First Child"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:902
+msgid "Border Last Child"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:912
+msgid "Border last Child"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:985
+#: includes/elementor/widgets/nav-menu.php:1120
+#: includes/elementor/widgets/nav-menu.php:1342
+msgid "Border Radius"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:504
+#: includes/elementor/widgets/nav-menu.php:564
+#: includes/elementor/widgets/nav-menu.php:619
+msgid "Border Radius (px)"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1026
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:88
+#: includes/elementor/widgets/nav-menu.php:109
+msgid "Center"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:142
+msgid "Click"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1260
+msgid "Close Toggle"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:126
+msgid "Column"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1011
+msgid "Conatiner width"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:976
+msgid "Container background"
+msgstr ""
+
+#: views/admin-pupup.php:14
+msgid "Content"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:218
+msgid "Custom URL"
+msgstr ""
+
+#: views/popup-content/settings.php:8
+msgid "Custom Width"
+msgstr ""
+
+#: views/popup-content/settings.php:33
+msgid "Custom Width:"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:153
+msgid "Date Archive"
+msgstr ""
+
+#: views/popup-content/settings.php:11
+#: includes/elementor/widgets/nav-menu.php:157
+msgid "Default"
+msgstr ""
+
+#: views/popup-content/settings.php:6
+msgid "Default Width"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:217
+msgid "Default(Home)"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:158
+msgid "Display On"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:248
+msgid "Display Rules"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:150
+msgid "Dropdown Indicator Icon"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:137
+msgid "Dropdown open as"
+msgstr ""
+
+#: views/popup-content/content.php:19
+msgid "Edit Content"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:72
+msgid "Edit Template"
+msgstr ""
+
+#: views/enable-option.php:14
+msgid "Enable Megamenu for this menu"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:249
+msgid "Enabled"
+msgstr ""
+
+#: views/popup-content/content.php:14
+msgid "Enabled Megamenu"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:165
+msgid "Entire Website"
+msgstr ""
+
+#: includes/helper-functions.php:119
+msgid "Everywhere"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:121
+msgid "Flex Direction:"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:87
+#: includes/elementor/widgets/nav-menu.php:108
+msgid "Flex End"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:86
+#: includes/elementor/widgets/nav-menu.php:107
+msgid "Flex Start"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:678
+msgid "Font Size"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:87
+msgid "Footer"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:152
+msgid "Front Page"
+msgstr ""
+
+#: views/popup-content/settings.php:7
+msgid "Full Width"
+msgstr ""
+
+#. Name of the plugin
+#: views/enable-option.php:2
+msgid "Glossy Mega Menu"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Glossy Mega Menu is a WordPress plugin that allows you to create stunning "
+"mega menus using Elementor. It includes a   built-in header and footer "
+"builder, giving you complete design flexibility for your website's "
+"navigation."
+msgstr ""
+
+#. Author of the plugin
+msgid "GlossyIt"
+msgstr ""
+
+#: includes/classes/class-cpt.php:39
+msgid "GlossyMM item"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:33
+msgid "GlossyMM Nav Menu"
+msgstr ""
+
+#: includes/classes/class-cpt.php:40
+msgid "glossymm_content"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:243
+msgid "Hamburger Icon (Optional)"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1201
+#: includes/elementor/widgets/nav-menu.php:1243
+#: includes/elementor/widgets/nav-menu.php:1401
+#: includes/elementor/widgets/nav-menu.php:1446
+msgid "Hamburger Icon Color"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1036
+msgid "Hamburger Style"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1044
+msgid "Hamburger Toggle"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:86
+msgid "Header"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:65 includes/glossymm-hf/class-cpt.php:66
+#: includes/glossymm-hf/class-cpt.php:67 includes/glossymm-hf/class-cpt.php:68
+#: includes/glossymm-hf/class-cpt.php:106
+#: includes/glossymm-hf/class-cpt.php:107
+msgid "Header & Footer Builder"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:119
+msgid "Header & Footer Builder Options"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1499
+msgid "Height"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:141
+#: includes/elementor/widgets/nav-menu.php:519
+#: includes/elementor/widgets/nav-menu.php:813
+#: includes/elementor/widgets/nav-menu.php:1216
+#: includes/elementor/widgets/nav-menu.php:1415
+msgid "Hover"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.glossyit.com/"
+msgstr ""
+
+#: views/admin-pupup.php:13 views/popup-content/icon.php:9
+#: includes/elementor/widgets/nav-menu.php:254
+msgid "Icon"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:161
+msgid "Icon Library"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1148
+msgid "Icon Size"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:698
+msgid "Indicator color"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:711
+msgid "Indicator Margin (px)"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:473
+#: includes/elementor/widgets/nav-menu.php:527
+#: includes/elementor/widgets/nav-menu.php:587
+#: includes/elementor/widgets/nav-menu.php:802
+msgid "Item background"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:871
+msgid "Item background (Active)"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:836
+msgid "Item background (hover)"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:656
+msgid "Item Margin"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:635
+msgid "Item Spacing"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:482
+#: includes/elementor/widgets/nav-menu.php:536
+#: includes/elementor/widgets/nav-menu.php:788
+msgid "Item text color"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:596
+#: includes/elementor/widgets/nav-menu.php:858
+msgid "Item text color (Active)"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:820
+msgid "Item text color (Hover)"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:82
+msgid "Justify Content"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1058
+msgid "Left"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:283
+msgid "Logged In"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:284
+msgid "Logged Out"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1298
+#: includes/elementor/widgets/nav-menu.php:1526
+msgid "Margin"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:395
+msgid "Menu border radius"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:306
+msgid "Menu Height"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:421
+msgid "Menu Icon Spacing"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:452
+msgid "Menu Item Style"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:435
+msgid "Menu item style"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:213
+msgid "Menu link"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:352
+msgid "Menu Panel Background"
+msgstr ""
+
+#: views/popup-content/settings.php:38
+msgid "Menu Position:"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:66
+msgid "Menu Settings"
+msgstr ""
+
+#: views/popup-content/settings.php:3
+msgid "Menu Width:"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:266
+msgid "Menu Wrapper"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:343
+msgid "Menu wrapper background"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:202
+#: includes/elementor/widgets/nav-menu.php:1464
+msgid "Mobile Menu Logo"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:194
+msgid "Mobile Menu Settings"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:362
+msgid "Mobile Wrapper Background"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:71
+msgid "New Template"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:78
+msgid "No Templates found in Trash."
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:77
+msgid "No Templates found."
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:465
+#: includes/elementor/widgets/nav-menu.php:781
+#: includes/elementor/widgets/nav-menu.php:1174
+#: includes/elementor/widgets/nav-menu.php:1374
+msgid "Normal"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:373
+#: includes/elementor/widgets/nav-menu.php:1076
+#: includes/elementor/widgets/nav-menu.php:1278
+#: includes/elementor/widgets/nav-menu.php:1546
+msgid "Padding"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:948
+msgid "Padding (px)"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:967
+msgid "Panel Menu Border"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:76
+msgid "Parent Templates:"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1053
+msgid "Position"
+msgstr ""
+
+#: includes/classes/class-cpt.php:28
+msgctxt "Post Type General Name"
+msgid "GlossyMM items"
+msgstr ""
+
+#: includes/classes/class-cpt.php:29
+msgctxt "Post Type Singular Name"
+msgid "GlossyMM item"
+msgstr ""
+
+#: views/popup-content/settings.php:12
+msgid "Relative"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:182
+msgid "Responsive Breakpoint"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:1062
+msgid "Right"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:125
+msgid "Row"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:150
+msgid "Search Page"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:75
+msgid "Search Templates"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:83
+msgid "Select"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:74
+msgid "Select menu"
+msgstr ""
+
+#: views/admin-pupup.php:12
+msgid "Settings"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:247
+msgid "Shortcode"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:90
+msgid "Space Around"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:89
+msgid "Space Between"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:91
+msgid "Space Evenly"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:751
+msgid "Spacing(px)"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:172
+msgid "Special Pages"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:215
+msgid "Specific Pages / Posts / Taxonomies, etc."
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:213
+msgid "Specific Target"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:106
+msgid "Stretch"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:884
+msgid "Sub Menu Items Border"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:252
+msgid "Submenu Click Area"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:670
+msgid "Submenu indicator style"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:734
+msgid "Submenu item style"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:940
+msgid "Submenu panel style"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:88
+msgid "Template"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:255
+msgid "Text"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:422
+msgid "This is only work with Mega menu icon option"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:149
+msgid "Type of Template"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:444
+#: includes/elementor/widgets/nav-menu.php:743
+#: includes/elementor/widgets/nav-menu.php:1270
+msgid "Typography"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:167
+msgid "User Roles"
+msgstr ""
+
+#: includes/glossymm-hf/class-cpt.php:73
+msgid "View Template"
+msgstr ""
+
+#: includes/elementor/widgets/nav-menu.php:274
+#: includes/elementor/widgets/nav-menu.php:1096
+#: includes/elementor/widgets/nav-menu.php:1318
+#: includes/elementor/widgets/nav-menu.php:1472
+msgid "Width"
+msgstr ""
+
+#: includes/glossymm-hf/class-glossymm-conditions-fields.php:158
+msgid "WooCommerce Shop Page"
+msgstr ""

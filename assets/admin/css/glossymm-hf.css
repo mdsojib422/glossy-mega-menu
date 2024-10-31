@@ -1,0 +1,92 @@
+/* Only for glossymm_hf builder post */
+
+
+.glossymm_hf_post_options {
+    padding: 20px 0;
+}
+.glossymm-template-select {
+    display: flex;
+    gap: 10px;
+}
+
+.glossymm-select-field label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.glossymm-settings-field{
+    margin-top: 20px;
+}
+.glossymm-settings-field label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.glossymm-select-field select {
+    min-width: 150px;
+}
+
+#glossymm-target-location-select {
+    display: none;
+}
+
+#glossymm-target-user-select {
+    display: none;
+}
+
+.d-block {
+    display: block !important;
+}
+
+/* Toggle Button */
+:root {
+    --toggle-switch-bg: #232428;
+    --toggle-border: #232428;
+    --toggle-bg: #fff;
+    --circle-size: 1.5rem;
+    --toggle-width: 4em;
+}
+
+.glossymm-toggle-wrap {
+    display: flex;    
+    align-items: center;
+}
+
+.glossymm-toggle-label {
+    width: 4em;
+    height: 1.5rem;
+    background: #fff;
+    border: 2px solid lightgrey;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 0.2rem;
+}
+
+.glossymm-toggle-input {
+    display: none!important;
+}
+
+.glossymm-toggle-switch {
+    width: 1.5rem;
+    height: var(--circle-size);
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all 0.5s;
+    background: gray;
+}
+
+input:checked~.glossymm-toggle-switch {
+    transform: translateX(calc(var(--toggle-width) - var(--circle-size)));
+    background: #30d26c;
+}
+/* End Toggle Button */
+
+td.glossymm_hf_display_rules h3 span {
+    font-weight: 400;
+}
+
+td.glossymm_hf_display_rules h3 {
+    font-size: 16px;
+    margin: 0;
+}

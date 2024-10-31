@@ -1,0 +1,425 @@
+/**
+  Default style for nav menu
+*/
+
+.glossymm-navbar-nav-default .glossymm-navbar-nav {
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+}
+
+.glossymm-navbar-nav-default .glossymm-navbar-nav {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	margin-left: 0;
+}
+
+.glossymm-navbar-nav-default .glossymm-navbar-nav>li {
+	position: relative;
+}
+
+.glossymm-menu-wrapper li,
+.glossymm-menu-wrapper ul {
+	margin: 0;
+	padding: 0;
+}
+
+.glossymm-menu-hamburger {
+	display: none;
+}
+
+a.glossymm-nav-logo {
+    display: block;
+}
+
+.glossymm-site-title a.glossymm-nav-logo:hover{
+	background: unset;
+}
+.glossymm-dropdown {
+	display: none;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+.glossymm-dropdown li {
+	list-style: none;
+}
+
+.glossymm-submenu-indicator {
+	margin: 0px 0px -3px 3px;
+	width: 15px;
+	height: 15px;
+}
+
+.glossymm-navbar-nav-default .glossymm-megamenu-panel {
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	margin-left: 0;
+	pointer-events: none;
+	opacity: 0;
+	visibility: hidden;
+	background-color: white;
+	transform: translateY(-10px);
+	-webkit-transform: translateY(-10px);
+	transition: transform .8s ease, -webkit-transform .4s ease;
+	-webkit-transition: transform .8s ease, -webkit-transform .4s ease;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+	z-index: 999;
+}
+
+.glossymm-nav-dropdown-hover .glossymm-dropdown-has:hover .glossymm-megamenu-panel {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	pointer-events: auto;
+	-webkit-transition: transform .8s ease, -webkit-transform .4s ease;
+	transition: transform .8s ease, -webkit-transform .4s ease;
+}
+
+/* Submenu Item dropdown */
+ul.glossymm-dropdown.glossymm-submenu-panel {
+	position: absolute;
+	background-color: white;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+	-webkit-transition: all .8s ease;
+	transition: all .8s ease;
+	z-index: 999;
+}
+
+.glossymm-nav-dropdown-hover .glossymm-dropdown-has:hover>.glossymm-dropdown {
+	display: block;
+}
+
+.glossymm-navbar-nav ul>ul {
+	top: 0;
+	right: 0;
+}
+
+.glossymm-navbar-nav>li>a {
+	padding: 0 15px;
+}
+
+.glossymm-megamenu-panel.full_width {
+	width: 100vw;
+}
+
+.glossymm-megamenu-panel.showmenu {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	pointer-events: auto;
+}
+
+ul.glossymm-dropdown.glossymm-submenu-panel.showmenu {
+	display: block;
+}
+
+.glossymm-megamenu-panel.default_width {
+	width: 750px;
+}
+.glossymm-overlay {
+    position: fixed;
+    background: rgba(1,0,0,30%);
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive Menu Design */
+.glossymm-menu-container.glossymm-megamenu-offcanvas {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: #fff;
+	-webkit-box-shadow: 0 10px 30px 0 rgba(255, 165, 0, 0);
+	box-shadow: 0 10px 30px 0 rgba(255, 165, 0, 0);
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-top: 50px;
+	padding-left: 0;
+	padding-right: 0;
+	display: none;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-transition: left .6s cubic-bezier(.6, .1, .68, .53);
+	transition: left .6s cubic-bezier(.6, .1, .68, .53);
+	z-index: 9;
+}
+
+.glossymm-menu-container.glossymm-megamenu-offcanvas.show {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.glossymm-nav-identity-panel {
+	position: absolute;
+	display: none;
+	left: 0;
+	top: 0;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.glossymm-menu-hamburger .glossymm-menu-hamburger-icon {
+	background-color: #ffffff;
+}
+
+.glossymm-menu-hamburger:hover .glossymm-menu-hamburger-icon {
+	background-color: #ffffff;
+}
+ .glossymm-menu-close {
+    background-color: #231111;
+    color: #FFFFFF;
+}
+
+.glossymm-menu-close:hover {
+	background-color: #231111;	
+}
+
+.glossymm-menu-hamburger {
+	padding: 8px;
+	background-color: #543C3C;
+	border-radius: .25rem;
+	position: relative;
+	z-index: 10;
+	cursor: pointer;
+	width: 45px;
+	-webkit-transition: all .4s ease-in;
+	transition: all .4s ease-in
+}
+
+.glossymm-menu-hamburger .glossymm-menu-hamburger-icon {
+	height: 1px;
+	width: 100%;
+	display: block;
+	margin-bottom: 4px
+}
+
+.glossymm-menu-hamburger .glossymm-menu-hamburger-icon:last-child {
+	margin-bottom: 0
+}
+
+/* New Done BY FAHIM */
+
+.glossymm-menu-container {
+	height: auto;
+	width: 100%;
+}
+
+/* .glossymm-menu-container ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: right;
+	display: flex;
+	flex-wrap: wrap;
+} */
+
+.glossymm-menu-container ul li.glossymm-menu-item {
+	display: inline-block;
+	position: relative;
+}
+
+.glossymm-menu-container ul li a {
+	display: block;
+	color: #000;
+	padding: 15px;
+	font-size: 18px;
+	line-height: 28px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 500;
+}
+
+.glossymm-menu-container a:hover {
+	background-color: #ccc;
+}
+
+/* Hide Dropdowns by Default */
+.glossymm-menu-container ul li.glossymm-menu-item ul {
+	display: none;
+	position: absolute;
+	top: 60px;
+	min-width: 200px;
+	background-color: #F5F5F5;
+}
+
+/* Display Dropdowns on Hover */
+.glossymm-menu-container ul li.glossymm-menu-item:hover>ul {
+	display: block;
+	z-index: 1000;
+}
+
+/* First Tier Dropdown */
+.glossymm-menu-container ul li.glossymm-menu-item ul li {
+	width: 100%;
+}
+
+/* Second, Third and More Tiers */
+.glossymm-menu-container ul li.glossymm-menu-item ul ul {
+	position: absolute;
+	top: 0;
+	right: 100%;
+	left: 100%;
+}
+
+.glossymm-menu-container ul li.glossymm-menu-item:last-child ul li ul {
+	left: -100%;
+}
+
+.glossymm-menu-container ul li.glossymm-menu-item:last-child ul li ul li ul {
+	left: 100%;
+}
+
+/* Responsive styling */
+@media (max-width: 1024px) {
+	.glossymm-menu-container ul li.glossymm-menu-item:focus-within>ul,
+	.glossymm-menu-container ul li.glossymm-menu-item:hover>ul {
+		display: block;
+	}
+	.glossymm-menu-container ul li.glossymm-menu-item ul ul {
+		left: 0;
+	}
+
+	.glossymm-menu-container ul li.glossymm-menu-item ul ul {
+		position: relative;
+	}
+}
+
+@media (max-width: 767px) {
+/* 	.glossymm-menu-container ul {
+		display: block;
+	}
+
+	.glossymm-menu-container ul li.glossymm-menu-item {
+		display: block;
+		width: 100%;
+	} */
+
+	.glossymm-menu-container a {
+		line-height: 40px;
+		padding: 10px 15px;
+		font-size: 16px;
+	}
+
+	.glossymm-menu-container ul li.glossymm-menu-item ul {
+		display: none;
+	}
+
+	.glossymm-menu-container ul li.glossymm-menu-item:hover>ul,
+	.glossymm-menu-container ul li.glossymm-menu-item:focus-within>ul {
+		display: block;
+	}
+
+}
+
+@media (max-width: 480px) {
+	.glossymm-menu-container a {
+		font-size: 14px;
+		line-height: 30px;
+	}
+
+	.glossymm-menu-container ul li.glossymm-menu-item ul {
+		min-width: 100% !important;
+	}
+
+	.glossymm-menu-container.glossymm-megamenu-offcanvas {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive styling Mobile*/
+.glossymm-menu-container.glossymm-megamenu-offcanvas {
+	max-width: 300px;
+}
+
+@media only screen and (max-width:1024px) {
+	.glossymm-menu-container.glossymm-megamenu-offcanvas {
+		padding: 150px 30px 50px 30px;
+	}
+
+	.glossymm-megamenu-offcanvas .glossymm-megamenu-panel {
+		display: none;
+	}
+
+	.glossymm-megamenu-has a svg {
+		display: none;
+	}
+
+	.glossymm-megamenu-offcanvas ul .menu-item {
+		width: 100%;
+	}
+
+	.elementor-1839 .elementor-element.elementor-element-fcd0441 .glossymm-navbar-nav .glossymm-submenu-panel {
+		min-width: 100%;
+		position: relative;
+		left: 0;
+		right: 0;
+		background: transparent;
+		top: unset;
+	}
+
+	ul.glossymm-dropdown.glossymm-submenu-panel {
+		box-shadow: unset;
+	}
+
+	.glossymm-megamenu-offcanvas .glossymm-navbar-nav {
+		overflow-x: auto;
+	}
+
+	.glossymm-menu-container ul li.glossymm-menu-item:last-child ul li ul {
+		left: 0;
+	}
+
+	.glossymm-menu-container ul li.glossymm-menu-item:last-child ul li ul li ul {
+		left: 0;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.glossymm-menu-container.glossymm-megamenu-offcanvas {
+		padding: 50px 30px;
+		max-width: 300px;
+	}
+
+	.glossymm-megamenu-offcanvas .glossymm-submenu-panel {
+		min-width: 100%;
+	}
+}
