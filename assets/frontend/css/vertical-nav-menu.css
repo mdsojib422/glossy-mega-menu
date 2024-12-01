@@ -1,0 +1,185 @@
+/* Vertical Header Style */
+.glossymm-vertical-header {
+    position: fixed !important;
+    left: 0 !important;
+    top: 0;
+    height: 100vh !important;
+    width: 100px !important;
+}
+
+.glossymm-vertical-menu-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    overflow-y: hidden;
+    pointer-events: none;
+    z-index: 99;
+}
+
+.glossymm-vertical-navbar-nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 100vh;
+    margin: 0;
+}
+
+.glossymm-vertical-navbar-nav li a:hover {
+    background-color: url('');
+}
+
+.glossymm-vertical-navbar-nav .menu-item-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.glossymm-vertical-navbar-nav .menu-item-wrapper a {
+    font-size: 42px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -100%;
+}
+
+.show-header {
+    pointer-events: unset;
+}
+
+.show-header .glossymm-vertical-navbar-nav .menu-item-wrapper a {
+    left: 0%;
+}
+
+.closed-header .glossymm-vertical-navbar-nav .menu-item-wrapper a {
+    left: -100%;
+}
+
+.show-mobile-header #mobile-menu .menu-item-wrapper a {
+    left: 0%;
+}
+
+.closed-mobile-header #mobile-menu .menu-item-wrapper a {
+    left: -100%;
+}
+
+.disable_scroll_formenu {
+    overflow: hidden;
+}
+
+
+.glossymm-vertical-navbar-nav .menu-item-wrapper a .menu_text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+}
+
+.glossymm-vertical-navbar-nav .menu-item-wrapper a:hover .menu_img {
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+    z-index: 9;
+}
+
+.glossymm-vertical-navbar-nav .menu-item-wrapper .menu_img {
+    transition: all 1s ease;
+    transform: scale3d(1.2, 1.2, 1);
+    transform-style: preserve-3d;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    opacity: 0;
+    z-index: -1;
+}
+
+.masthead:not(.mixed-header) {
+    background: transparent !important;
+    background-size: auto;
+}
+
+.glossymm-vertical-navbar-nav .menu-item-wrapper a {
+    background-color: white;
+    transition: all 1s ease;
+}
+
+button.glossymm-menu-hamburger.glossymm-menu-toggler svg {
+    width: 25px;
+}
+
+.glossymm-menu-hamburger {
+    padding: 0;
+    margin: 0;
+}
+
+.glossymm-menu-hamburger:focus,
+.glossymm-menu-hamburger:hover {
+    box-shadow: unset !important;
+    outline: unset !important;
+    border: unset !important;
+}
+.glossymm-vertical-navbar-nav .menu-item-wrapper a:hover {
+    background-color: lightsteelblue;
+}
+
+
+.glossymm-vertical-menu-wrapper.show-header .warning-menu-notselected {
+    display: flex;
+}
+.warning-menu-notselected {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.warning-menu-notselected p {
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width: 991px) {
+    .glossymm-vertical-header {
+        position: fixed !important;
+        left: 0!important;;
+        top: 0;      
+        width: 100% !important;
+        height: unset !important;
+    }
+    .glossymm-vertical-navbar-nav .menu-item-wrapper a {
+        font-size: 28px;        
+    }
+    .glossymm-vertical-navbar-nav {
+        grid-template-columns: repeat(3, 1fr);     
+    }
+}
+@media screen and (max-width: 578px) {
+
+    .glossymm-vertical-navbar-nav {
+        grid-template-columns: repeat(1, 1fr);     
+    }
+    .glossymm-vertical-navbar-nav .menu-item-wrapper a {
+        font-size: 24px;
+    }
+
+
+}
+/* End Vertical Header Style */

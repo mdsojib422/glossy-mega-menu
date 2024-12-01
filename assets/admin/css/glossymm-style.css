@@ -1,0 +1,371 @@
+/* 
+Overveiw
+-------------------------------- 
+      1. Global
+			2. Switch
+      3. Admin Menu Popup
+      4. Admin Popup Tab
+-------------------------------- */
+
+:root{
+  --main-color: #000;
+  --text-color: #ffffff;
+}
+
+
+/* Global */
+.glossymm-d-none{
+  display: none;
+}
+.glossymm-d-flex{
+  display: flex;
+}
+.glossymm-jstcont-between{
+  justify-content: space-between;
+}
+.glossymm-alignitem-middle{
+  align-items: center;
+}
+.ajax_preloader {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.1);
+  display: none;
+}
+
+.ajax_preloader img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/* -------------------------------- 
+			Switch
+-------------------------------- */
+.switch-container {
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+/*** Switch Style ***/
+input.glossymm-toggle-btn {
+  max-height: 0;
+  max-width: 0;
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
+  pointer-event: none;
+}
+input.glossymm-toggle-btn + label {
+  display: block;
+  position: relative;
+  box-shadow: inset 0 0 0px 1px #a6a6a6;
+  text-indent: -5000px;
+  height: 25px;
+  width: 45px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+input.glossymm-toggle-btn + label:before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 25px;
+  width: 25px;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  background: transparent;
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+a.glossymm_megamenu_trigger:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+input.glossymm-toggle-btn + label:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 25px;
+  width: 25px;
+  top: 0;
+  left: 0px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.2);
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+input.glossymm-toggle-btn:checked + label:before {
+  width: 45px;
+  background: #13bf11;
+}
+input.glossymm-toggle-btn:checked + label:after {
+  left: 20px;
+  box-shadow: inset 0 0 0 1px #13bf11, 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.glossymm_enable_option_wrap h5 {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+p.notice.notice-warning.glossymm-notice {
+    padding: 10px;
+    font-size: 16px;
+    background: #f3f3f3;
+}
+.button-row-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.ajax-loader{
+  display: none;
+}
+
+#menu-to-edit li.menu-item{
+    position: relative;
+}
+.glossymm_megamenu_trigger {
+  position: absolute;
+  top: 10px;
+  left: 430px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  color: forestgreen;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* Admin Menu Popup  */
+.glossymm_adminmenu_popup {
+  position: fixed;
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  top: 50%;
+  background: #E8ECEF;
+  z-index: 999999;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: none;
+  transition: all 400ms linear;
+}
+
+.glossymm_popup_overlaping {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 9999;
+  display: none;
+  transition: all 400ms linear;
+}
+.glossymm_megamenu_builder_popup {
+  position: fixed;
+  background: white;
+  width: 85%;
+  height: 85%;
+  top: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999;
+  display: none;
+}
+
+iframe#glossymm_megamenu_builder_iframe {
+  width: 100%;
+  height: 100%;
+}
+.glossymm_close_builder_popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+.glossymm_close_builder_popup:focus{
+  outline: none;
+  box-shadow: none;
+  color: none;
+}
+
+/* End Admin Menu Popup  */
+
+/* Admin Popup Tab Style */
+
+.glossymm_popup_tabs {
+  width: 100%;
+  min-width: 400px;
+  margin: 20px auto;
+  border-bottom: 4px solid #000;
+  overflow: hidden;
+  transition: border 250ms ease;
+}
+.glossymm-tabpanel{
+  display: none;
+}
+
+button.glossymm-close-popup {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: 0 solid #000;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+  display: inline-block;
+}
+.glossymm-tabpanel.active{
+  display: block;
+}
+.glossymm-tab-content {
+  margin: 15px;
+}
+.glossymm_popup_tabs ul {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  float: left;
+  padding-left: 48px;
+  list-style-type: none;
+}
+.glossymm_popup_tabs ul * {
+  margin: 0px;
+  padding: 0px;
+}
+.glossymm_popup_tabs ul li {
+  display: block;
+  float: right;
+  padding: 10px 24px 8px;
+  background-color: #FFF;
+  margin-right: 46px;
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+  color: #777;
+  text-transform: uppercase;
+  font: 600 13px/20px roboto, "Open Sans", Helvetica, sans-serif;
+  transition: all 250ms ease;
+}
+.glossymm_popup_tabs ul li:before,
+.glossymm_popup_tabs ul li:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 44px;  
+  background-color: #FFF;
+  transition: all 250ms ease;
+}
+.glossymm_popup_tabs ul li:before {
+  right: -24px;
+  transform: skew(30deg, 0deg);
+  box-shadow: rgba(0,0,0,.1) 3px 2px 5px, inset rgba(255,255,255,.09) -1px 0;
+}
+.glossymm_popup_tabs ul li:after {
+  left: -24px;
+  transform: skew(-30deg, 0deg);
+  box-shadow: rgba(0,0,0,.1) -3px 2px 5px, inset rgba(255,255,255,.09) 1px 0;
+}
+.glossymm_popup_tabs ul li:hover,
+.glossymm_popup_tabs ul li:hover:before,
+.glossymm_popup_tabs ul li:hover:after {
+  background-color: #F4F7F9;
+  color: #444;
+}
+.glossymm_popup_tabs ul li.active {
+  z-index: 3;
+}
+.glossymm_popup_tabs ul li.active,
+.glossymm_popup_tabs ul li.active:before,
+.glossymm_popup_tabs ul li.active:after {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Round Tabs */
+.glossymm_popup_tabs.round ul li {
+  border-radius: 8px 8px 0 0;
+}
+.glossymm_popup_tabs.round ul li:before {
+  border-radius: 0 8px 0 0;
+}
+.glossymm_popup_tabs.round ul li:after {
+  border-radius: 8px 0 0 0;
+}
+
+.popup-footer-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+a.glossymm-popup-savebtn {
+  padding: 15px 20px;
+  background: var(--main-color);
+  color: var(--text-color);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  display: block;
+  line-height: 12px;
+}
+
+.glossymm-fieldset {
+  margin: 10px 0;
+}
+.glossymm-fieldset label {
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-flex;
+  width: 200px;
+}
+
+.glossymm-edit-item a {
+  display: flex;
+  padding: 10px 20px;
+  background: #000;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+}
+.glossymm-edit-item img {
+  height: 30px;
+}
+.glossymm-edit-item a.disabled {
+  position: relative;
+  pointer-events: none;
+}
+.glossymm-edit-item a.disabled::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  background: rgba(0,0,0, 0.5);
+}
+
+/* End Admin Popup Tab Style */
